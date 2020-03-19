@@ -5,19 +5,19 @@ export default function ChoiceButtons(props) {
     <div className="container">
       <button
         className="btn btn-success btn-lg"
-        onClick={() => props.onPlayerChoose("rock")}
+        onClick={() => props.onPlayerChoose("Ho Chi Minh city")}
       >
         Rock
       </button>
       <button
         className="btn btn-success btn-lg"
-        onClick={() => props.onPlayerChoose("paper")}
+        onClick={() => props.onPlayerChoose("New York city")}
       >
         Paper
       </button>
       <button
         className="btn btn-success btn-lg"
-        onClick={() => props.onPlayerChoose("scissors")}
+        onClick={() => props.onPlayerChoose("London")}
       >
         Scissors
       </button>
